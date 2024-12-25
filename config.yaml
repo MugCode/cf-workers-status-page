@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Maown Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -37,3 +37,11 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: maown-com
+    name: maown.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://maown.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
