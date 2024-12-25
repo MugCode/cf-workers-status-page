@@ -17,9 +17,9 @@ settings:
 monitors:
   - id: maown-com # unique identifier
     name: maown.com
-    description: 'Personal website.' # default=empty
+    description: 'You write code. They handle the rest.' # default=empty
     url: 'https://maown.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+    linkable: true # should the titles be links to the service, default=true
