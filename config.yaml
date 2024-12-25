@@ -22,4 +22,4 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # should the titles be links to the service, default=true
+    linkable: false # should the titles be links to the service, default=true
