@@ -16,7 +16,7 @@ settings:
   
 monitors:
   - id: maown-com # unique identifier
-    name: 站点状态
+    name: Community
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://maown.com/' # URL to fetch
     method: GET # default=GET
