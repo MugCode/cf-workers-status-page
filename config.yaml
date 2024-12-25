@@ -18,8 +18,8 @@ monitors:
   - id: maown-com # unique identifier
     name: maown.com
     description: 'Personal website.' # default=empty
-    url: 'https://www.baidu.com/' # URL to fetch
+    url: 'https://maown.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
