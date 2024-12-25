@@ -37,3 +37,12 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+    
+  - id: maown-com # unique identifier
+    name: maown.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://maown.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # should the titles be links to the service, default=true
