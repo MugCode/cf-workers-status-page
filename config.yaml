@@ -34,14 +34,6 @@ monitors:
 
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+    url: 'https://maown.com/'
     method: GET
     expectStatus: 200
-
-  - id: maown-com
-    name: maown.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://maown.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
