@@ -25,9 +25,10 @@ monitors:
     linkable: true # should the titles be links to the service, default=true
 
   - id: herstory-docs
-    name: Herstory Docs
+    name: Herstory
     description: '她历史人物文档'
     url: 'https://anonymouswomen.gitbook.io/herstorydocs'
     method: GET
     expectStatus: 200
+    followRedirect: false
     linkable: true # allows the title to be a link, default=true
